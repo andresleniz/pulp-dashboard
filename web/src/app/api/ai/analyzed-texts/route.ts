@@ -7,6 +7,7 @@
  *   Body: { id, review_status?, user_corrected_json?, final_structured_json? }
  */
 
+export const dynamic = 'force-dynamic'
 import { NextRequest, NextResponse } from 'next/server'
 import { useMockData, query } from '@/lib/db'
 import { getAnalyzedTexts, updateAnalyzedText } from '@/lib/dataStore'

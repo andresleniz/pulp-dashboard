@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import { NextRequest, NextResponse } from 'next/server'
 import { useMockData, query } from '@/lib/db'
 import { getCompetitorPrices, addCompetitorPrice } from '@/lib/dataStore'
