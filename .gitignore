@@ -1,0 +1,21 @@
+# Claude Code
+.claude/
+
+# .NET
+bin/
+obj/
+*.user
+.vs/
+
+# Next.js
+web/.next/
+web/node_modules/
+web/.env
+web/.env.local
+web/.env*.local
+web/tsconfig.tsbuildinfo
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
